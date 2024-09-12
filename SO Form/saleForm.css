@@ -1,0 +1,197 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Anek Devanagari", sans-serif;
+    background-color: #F7EFE5;
+}
+
+legend{
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    /* margin: 10px 0; */
+}
+
+input{
+    border: 1px solid #C8A1E0;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+
+fieldset{
+    border: 2px solid #674188;
+    border-radius: 5px;
+}
+
+.top_form_section{
+    display: flex;
+    justify-content: center;
+}
+
+.personal_info fieldset{
+    padding: 10px 14px;
+}
+
+.personal_info input{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.item_info{
+    margin-left: 20px;
+}
+
+.item_info fieldset{
+    padding: 10px;
+}
+
+.inner_item_info label{
+    width: 225px;
+    display: inline-block;
+}
+
+.inner_item_info select{
+    width: 150px;
+    outline: none;
+}
+
+.inner_item_info input{
+    margin-bottom: 10px;
+    width: 150px;
+    display: inline-block;
+}
+
+img{
+    margin-top: -30px;
+    width: 250px;
+    height: 200px;
+    float: right;
+    border: 1px solid black;
+}
+
+.plus_btn{
+    cursor: pointer;
+}
+
+.project_info{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.project_info fieldset{
+    padding: 10px;
+}
+
+.project_info label{
+    width: 225px;
+    display: inline-block;
+    
+}
+
+.project_info input{
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+
+.buttom_form_section{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.followup_info{
+    margin-left: 20px;
+}
+
+.followup_info fieldset{
+    padding: 10px;
+}
+
+.inner_followup_info label{
+    width: 225px;
+    display: inline-block;
+}
+
+.inner_followup_info input{
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.install_info fieldset{
+    padding: 15px 10px;
+
+}
+
+.inner_install_info input{
+    display: block;
+    margin-bottom: 12px;
+    width: 180px;
+}
+
+.query_info{
+    margin-left: 20px;
+}
+
+.query_info fieldset{
+    padding: 10px;
+}
+
+.inner_query_info label{
+    width: 225px;
+    display: inline-block;
+}
+
+.inner_query_info input{
+    width: 150px;
+}
+
+.user_field{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.user_field fieldset{
+    padding: 10px;
+}
+
+.user_field  label{
+    width: 225px;
+    display: inline-block;
+}
+
+.user_field input{
+    width: 150px;
+}
+
+.work_order_form{
+    margin-left: 20px;
+}
+
+.work_order_form fieldset{
+    padding: 10px;
+}
+
+.work_order_form label{
+    width: 225px;
+    display: inline-block;
+}
+
+.work_order_form input{
+    width: 150px;
+}
+
