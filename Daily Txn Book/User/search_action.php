@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "root";
-$db = "membership_project";
+$db = "daily_txn_book";
 
 $conn = new mysqli($servername, $username, $password, $db);
 
@@ -17,26 +17,8 @@ echo "Connected successfully <br>";
 
 
 // $sql = "SELECT * FROM user_info WHERE id = $user_name"; 
-$query = "SELECT * FROM financial_year_fees"; 
+$query = "SELECT * FROM user_info"; 
 
-
-// $result = $conn->query($sql);
-
-// if ($result->num_rows > 0){
-
-// $row = $result->fetch_assoc();
-
-// $password = $row["password"];
-// $mobile_no = $row["mobile_no"];
-// $emai_id = $row["emai_id"];
-// $effective_from_date = $row["effective_from_date"];
-// $effective_to_date = $row["effective_to_date"];
-// $description = $row["description"];
-// $days = $row["days"];
-
-// }else {
-// 	echo "Not Found";
-// }
 
 if ($is_query_run = mysqli_query($conn,$query)) 
 { 
@@ -46,9 +28,9 @@ if ($is_query_run = mysqli_query($conn,$query))
     { 
         // these four line is for four column 
         echo $query_executed['id'].' '; 
-        echo $query_executed['membership_type'].' '; 
-        echo $query_executed['year_of_membership'].' '; 
-        echo $query_executed['yearly_charges'].'<br>'; 
+        echo $query_executed['username'].' '; 
+        echo $query_executed['password'].' '; 
+        echo $query_executed['mobile_no'].'<br>'; 
     } 
 } 
 else

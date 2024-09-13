@@ -25,7 +25,7 @@ const getUSerDataByUserName = () => {
 
 
 
-    $.get("../phpAjax/userAjax.php", data, function (data) {
+    $.get("../phpAJax/userAjax.php", data, function (data) {
         console.log(data)
 
 

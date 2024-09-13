@@ -30,7 +30,7 @@
                                 class=" block mb-2 font-bold text-xs font-medium text-gray-900 dark:text-white">User
                                 Name :
                             </label>
-                            <input type="text" name="user_name" id="user_name"
+                            <input type="text" name="user_name" id="user_name" id="user_name"
                                 class="w-40 rounded-md border text-xs border-gray-500 mb-3 bg-white py-3 pl-2 text-[#6B7280] h-6 outline-none focus:border-[#6A64F1] focus:shadow-md" />
                             <button type="submit" onclick="getUSerDataByUserName()"
                                 class="py-1.5 px-3 ms- text-sm font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -159,14 +159,6 @@
                         disabled />
                 </div>
 
-                <!-- <div class="">
-                            <input type="radio" name="password" id="" class="mr-3">
-                            <label
-                            class="w-14 inline-block mb-2 font-bold text-xs font-medium text-gray-900 dark:text-white">
-                            Access : </label>
-                            <input type="text"
-                            class="w-40 rounded-md border text-xs border-gray-500 mb-3 bg-white py-3 pl-2 text-[#6B7280] h-6 outline-none focus:border-[#6A64F1] focus:shadow-md" />
-                        </div> -->
                 <div class="">
                     <input type="radio" name="password" id="" class="mr-3" disabled>
                     <label class="w-15 inline-block mb-2 font-bold text-xs font-medium text-gray-900 dark:text-white">
@@ -191,53 +183,6 @@
                 <div id="default-styled-tab-content">
                     <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="styled-profile" role="tabpanel"
                         aria-labelledby="profile-tab">
-                        <!-- <div class="">
-                            <div>
-                                <label class="text-sm">User View</label>
-                                <input id="user_view" type="checkbox" name="user_view" value=""
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-
-                                <div id="view_date" style="display: none;">
-                                    <label class="text-sm block mt-3">From Date</label>
-                                    <input type="date" name="effective_to_date"
-                                        class="w-40 rounded-md border text-xs border-gray-500 mb-3 bg-white py-3 pl-2 text-[#6B7280] h-6 outline-none focus:border-[#6A64F1] focus:shadow-md" />
-                                    <label class="text-sm block">From Date</label>
-                                    <input type="date" name="effective_to_date"
-                                        class="w-40 rounded-md border text-xs border-gray-500 mb-3 bg-white py-3 pl-2 text-[#6B7280] h-6 outline-none focus:border-[#6A64F1] focus:shadow-md" />
-                                </div>
-                            </div>
-                            <div>
-
-                                <label class="text-sm">User Edit</label>
-                                <input id="" type="checkbox" name="user_edit" value=""
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            </div>
-                            <div>
-                                <label class="text-sm">Admin View</label>
-                                <input id="" type="checkbox" name="admin_view" value=""
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            </div>
-                            <div>
-                                <label class="text-sm">Admin Write</label>
-                                <input id="" type="checkbox" name="admin_write" value=""
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            </div>
-                            <div>
-                                <label class="text-sm">Store Request Genrate</label>
-                                <input id="" type="checkbox" name="store_request_genrate" value=""
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            </div>
-                            <div>
-                                <label class="text-sm">Store Manager</label>
-                                <input id="" type="checkbox" name="store_manager" value=""
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            </div>
-                            <div>
-                                <label class="text-sm">Store Issue</label>
-                                <input id="" type="checkbox" name="store_issue" value=""
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            </div>
-                        </div> -->
 
                         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
                             <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">

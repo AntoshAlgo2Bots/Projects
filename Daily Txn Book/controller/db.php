@@ -4,7 +4,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "root";
-$dbname = "for_office";
+$dbname = "daily_txn_book";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

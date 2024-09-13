@@ -18,7 +18,7 @@ function StatusAndValue($tableNAme,  $statusColumnName)
         "localhost",
         "root",
         "root",
-        "membership_project"
+        "daily_txn_book"
     );
     
     
