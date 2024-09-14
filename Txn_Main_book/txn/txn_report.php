@@ -202,6 +202,10 @@ $result = mysqli_query($conn, $sql);
                     <th scope="col" class="px-6 py-3">
                         Status
                     </th>
+                    <th scope="col" class="px-6 py-3">
+                        
+                    </th>
+
 
                 </tr>
             </thead>
@@ -247,40 +251,54 @@ $result = mysqli_query($conn, $sql);
 
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['particuler_to'] ?>
+                            <input type="text" name="" id="" value=" <?php echo $row['particuler_to'] ?>">
+                           
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['site'] ?>
+                            <input type="text" name="" id="" value=" <?php echo $row['site'] ?>">
+                           
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['main_head'] ?>
+                            <input type="text" name="" id="" value="<?php echo $row['main_head'] ?>">
+                            
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['sub_head'] ?>
+                            <input type="text" name="" id="" value=" <?php echo $row['sub_head'] ?>">
+                           
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['currentUser'] ?>
+                            <input type="text" name="" id="<?php echo $row['currentUser'] ?>">
+                            
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['currentTime'] ?>
+                            <input type="text" name="" id="" value=" <?php echo $row['currentTime'] ?>">
+                           
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['bill_cheque_no'] ?>
+                            <input type="text" name="" id="" value="<?php echo $row['bill_cheque_no'] ?>">
+                            
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['invoice_date'] ?>
+                            <input type="text" name="" id="" value="<?php echo $row['invoice_date'] ?>">
+                            
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['invoice_no'] ?>
+                            <input type="text" name="" id="" value="<?php echo $row['invoice_no'] ?>">
+                            
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['gst_no'] ?>
+                            <input type="text" name="" id="" value=" <?php echo $row['gst_no'] ?>">
+                           
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['remarks'] ?>
+                            <input type="text" name="" id="" value="<?php echo $row['remarks'] ?>">
+                            
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['form_status'] ?>
+                            <input type="text" name="" id="" value=" <?php echo $row['form_status'] ?>">
+                        </td>
+                        <td class="px-6 py-4">
+                           <a href="" class="text-blue-700">Edit</a>
                         </td>
 
                     </tr>
