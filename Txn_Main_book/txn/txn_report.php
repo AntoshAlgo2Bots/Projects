@@ -233,19 +233,19 @@ $result = mysqli_query($conn, $sql);
                                     <label for="checkbox-table-search-1" class="sr-only">checkbox</label>
                                 </th> -->
                         <th scope="row" class="px-6 py-4">
-                            <?php echo $row['transaction_no'] ?>
+                           <input type="text" name="" id="" value=" <?php echo $row['transaction_no'] ?>">
                         </th>
                         <td class="px-6 py-4">
-                            <?php echo $row['transaction_date'] ?>
+                            <input type="text" name="" id="" value="<?php echo $row['transaction_date'] ?>">
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['amount_type'] ?>
+                            <input type="text" name="" id="" value="<?php echo $row['amount_type'] ?>">
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['credit_amt'] ?>
+                            <input type="text" name="" id="" value="<?php echo $row['credit_amt'] ?>">
                         </td>
                         <td class="px-6 py-4">
-                            <?php echo $row['debit_amt'] ?>
+                            <input type="text" name="" id="" value="<?php echo $row['debit_amt'] ?>">
                         </td>
                         <td class="px-6 py-4">
 
