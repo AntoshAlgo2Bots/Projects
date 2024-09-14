@@ -1,0 +1,18 @@
+CREATE TABLE `daily_txn_book` (
+  `transaction_no` int NOT NULL AUTO_INCREMENT,
+  `transaction_date` varchar(45) DEFAULT NULL,
+  `amount_type` varchar(45) DEFAULT NULL,
+  `credit_amt` varchar(45) DEFAULT NULL,
+  `debit_amt` varchar(45) DEFAULT NULL,
+  `particuler_to` varchar(45) DEFAULT NULL,
+  `site` varchar(45) DEFAULT NULL,
+  `main_head` varchar(45) DEFAULT NULL,
+  `sub_head` varchar(45) DEFAULT NULL,
+  `bill_cheque_no` varchar(45) DEFAULT NULL,
+  `invoice_date` varchar(45) DEFAULT NULL,
+  `invoice_no` varchar(45) DEFAULT NULL,
+  `gst_no` varchar(45) DEFAULT NULL,
+  `remarks` varchar(45) DEFAULT NULL,
+  `form_status` varchar(45) NOT NULL DEFAULT 'SAVE',
+  PRIMARY KEY (`transaction_no`)
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

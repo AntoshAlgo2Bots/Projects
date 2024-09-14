@@ -1,10 +1,13 @@
 <?php
 
-include("../controllers/getData.php");
+include("../controller/getData.php");
+
+
+
 $servername = "localhost";
 $username = "root";
 $password = "root";
-$dbname = "daily_txn_book";
+$dbname = "for_office";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
