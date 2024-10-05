@@ -222,6 +222,7 @@
                     contentType: false,
                     success: function (response) {
                         alert('Your form has been sent successfully.');
+                        console.log(response);
                     },
                     error: function (xhr, status, error) {
                         alert('Your form was not sent successfully.');

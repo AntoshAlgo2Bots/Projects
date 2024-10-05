@@ -176,12 +176,10 @@
                     url: 'action.php',
                     method: 'POST',
                     data: formData,
-                    processData: false,
-                    contentType: false,
                     success: function (response) {
                         alert('Your form has been sent successfully.');
                     },  
-                    error: function (xhr, status, error) {
+                    error: function (error) {
                         alert('Your form was not sent successfully.');
                         console.error(error);
                     }
